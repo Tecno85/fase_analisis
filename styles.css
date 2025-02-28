@@ -1,17 +1,9 @@
 :root {
   --font-title_h1: "Rubik Marker Hatch", serif;
-  --font-title111: "Anek Latin", serif;
-  --font-title1: "Iceland", serif;
-  --font-title2: "Blinker", serif;
-  --font-title3: "Tourney", serif;
-  --font-title4: "Bungee Shade", serif;
-  --font-title5: "Genos", serif;
-  --font-title6: "Baumans", serif;
-  --font-title7: "Edu SA Beginner", serif;
-  --font-title8: "Anta", serif;
-  --font-title9: "Rubik Doodle Shadow", serif;
-  --font-title10: "Edu TAS Beginner", serif;
-  --font-title12: "Quicksand", serif;
+  --font-title-h2: "Quicksand", serif;
+  --font-title-p: "Genos", serif;
+  --font-title-icon: "Iceland", serif;
+  --font-title-footer: "Tourney", serif;
 }
 
 * {
@@ -62,11 +54,10 @@ main {
 .concepto .texto-concepto {
   margin: 15px;
   text-align: justify;
-  font-family: var(--font-title5);
 }
 
 h2 {
-  font-family: var(--font-title12);
+  font-family: var(--font-title-h2);
   font-size: 1.4rem;
   font-weight: 600;
   margin: 15px;
@@ -76,6 +67,7 @@ h2 {
   font-size: 20px;
   font-weight: 400;
   margin: 20px 10px 10px 5px;
+  font-family: var(--font-title-p);
 }
 
 img {
@@ -113,7 +105,7 @@ img {
 .texto-principios h2 {
   text-align: center;
   padding-bottom: 9px;
-  font-family: var(--font-title12);
+  font-family: var(--font-title-h2);
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -122,7 +114,7 @@ img {
   font-size: 20px;
   font-weight: 400;
   margin: 20px 10px 10px 5px;
-  font-family: var(--font-title5);
+  font-family: var(--font-title-p);
 }
 
 /* tipos-sistemas */
@@ -137,7 +129,7 @@ img {
 
 .tipos-sistemas h2 {
   text-align: center;
-  font-family: var(--font-title12);
+  font-family: var(--font-title-h2);
   font-size: 1.5rem;
   font-weight: 600;
   margin-top: 20px;
@@ -154,7 +146,7 @@ img {
 /* Sistemas Abiertos */
 
 .sistemas-abiertos h3 {
-  font-family: var(--font-title12);
+  font-family: var(--font-title-h2);
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 5px;
@@ -169,7 +161,7 @@ img {
   font-weight: 300;
   margin: 20px 10px 10px 5px;
   color: while;
-  font-family: var(--font-title5);
+  font-family: var(--font-title-p);
   max-width: 300px;
   line-height: 18px;
   margin: 0px 0px 15px;
@@ -178,7 +170,7 @@ img {
 /* Sistemas Cerrados */
 
 .sistemas-cerrados h3 {
-  font-family: var(--font-title12);
+  font-family: var(--font-title-h2);
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 5px;
@@ -193,7 +185,7 @@ img {
   font-weight: 300;
   margin: 20px 10px 10px 5px;
   color: while;
-  font-family: var(--font-title5);
+  font-family: var(--font-title-p);
   max-width: 300px;
   line-height: 18px;
   margin: 0px 0px 15px;
@@ -216,7 +208,7 @@ img {
 
 .aplicaciones h2 {
   text-align: center;
-  font-family: var(--font-title12);
+  font-family: var(--font-title-h2);
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -233,7 +225,7 @@ img {
   font-weight: 300;
   margin: 20px 10px 10px 5px;
   color: while;
-  font-family: var(--font-title5);
+  font-family: var(--font-title-p);
   max-width: 400px;
   margin: 0px 0px 15px;
 }
@@ -263,7 +255,7 @@ img {
 }
 
 .texto-elementos h2 {
-  font-family: var(--font-title12);
+  font-family: var(--font-title-h2);
   font-size: 1.6rem;
   font-weight: 600;
   padding: 10px;
@@ -274,7 +266,7 @@ img {
   font-weight: 350;
   margin: 20px 10px 10px 5px;
   color: while;
-  font-family: var(--font-title5);
+  font-family: var(--font-title-p);
   margin: 0px 0px 15px;
   line-height: 22px;
 }
@@ -286,10 +278,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #0d0d0dde;
-  background-color: #c3b9ae;
-  background-color: #383636;
-  background-color: #262626;
   background-color: #595959;
   padding: 40px;
   color:black;
@@ -306,23 +294,30 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 20px;
-
 }
 
-.icon i {
+.github a {
   font-size: 21px;
+  text-decoration: none;
+  color: white;
+}
+
+.linkedin a {
+  font-size: 21px;
+  text-decoration: none;
+  color: white;
 }
 
 .icon {
   font-size: 20px;
-  font-family: var(--font-title1);
+  font-family: var(--font-title-icon);
 }
 
 .created-by {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: var(--font-title3);
+  font-family: var(--font-title-footer);
   font-size: 17px;
   font-weight: 550;
   gap: 10px;
