@@ -1,0 +1,287 @@
+:root {
+  --font-title_h1: "Rubik Marker Hatch", serif;
+  --font-title111: "Anek Latin", serif;
+  --font-title1: "Iceland", serif;
+  --font-title2: "Blinker", serif;
+  --font-title3: "Tourney", serif;
+  --font-title4: "Bungee Shade", serif;
+  --font-title5: "Genos", serif;
+  --font-title6: "Baumans", serif;
+  --font-title7: "Edu SA Beginner", serif;
+  --font-title8: "Anta", serif;
+  --font-title9: "Rubik Doodle Shadow", serif;
+  --font-title10: "Edu TAS Beginner", serif;
+  --font-title12: "Quicksand", serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: rgb(250, 248, 248);
+  min-height: 100vh;
+}
+
+header {
+  padding: 25px;
+  background-color: #7165bf;
+}
+
+header h1 {
+  text-align: center;
+  color: rgb(244, 238, 238);
+  font-family: var(--font-title_h1);
+  font-size: 45px;
+  border: 0.15cm dashed white;
+  border-radius: 0.9rem;
+  padding: 20px;
+}
+
+main {
+  background-color: #b8d9c6;
+  color: black;
+  flex: 1;
+}
+
+/* Concepto */
+
+.concepto {
+  display: flex;
+  padding: 10px;
+  border: 3px solid white;
+  border-bottom: none;
+  border-radius: 0.5rem;
+  background-color: #b8d9c6;
+}
+
+.concepto .texto-concepto {
+  margin: 15px;
+  text-align: justify;
+  font-family: var(--font-title5);
+}
+
+h2 {
+  font-family: var(--font-title12);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 15px;
+}
+
+.texto-concepto p {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px 10px 10px 5px;
+}
+
+img {
+  border-radius: 0.4rem;
+  border: 2px solid rgb(34, 31, 31);
+  margin: 10px 20px 10px 2px;
+  max-width: 100vh;
+  height: 100%;
+}
+
+/* Principios */
+
+.principios {
+  display: flex;
+  background-color: #d94848;
+  border: 3px solid white;
+  border-bottom: none;
+  border-radius: 0.4rem;
+  color: white;
+}
+
+.principios img {
+  margin: 20px 15px 15px 30px;
+  max-width: 100vh;
+  height: 100%;
+}
+
+.texto-principios {
+  display: flex;
+  flex-direction: column;
+  line-height: 3px;
+  padding-top: 15px;
+}
+
+.texto-principios h2 {
+  text-align: center;
+  padding-bottom: 9px;
+  font-family: var(--font-title12);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.principios p {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px 10px 10px 5px;
+  font-family: var(--font-title5);
+}
+
+/* tipos-sistemas */
+
+.tipos-sistemas {
+  border: 3px solid white;
+  border-radius: 0.4rem;
+  border-bottom: none;
+  background-color: #347ebf;
+  color: white;
+}
+
+.tipos-sistemas h2 {
+  text-align: center;
+  font-family: var(--font-title12);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.sistemas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 100px;
+}
+
+/* Sistemas Abiertos */
+
+.sistemas-abiertos h3 {
+  font-family: var(--font-title12);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.sistemas-abiertos img {
+  border-radius: 2rem;
+}
+
+.sistemas-abiertos p {
+  font-size: 21px;
+  font-weight: 300;
+  margin: 20px 10px 10px 5px;
+  color: while;
+  font-family: var(--font-title5);
+  max-width: 300px;
+  line-height: 18px;
+  margin: 0px 0px 15px;
+}
+
+/* Sistemas Cerrados */
+
+.sistemas-cerrados h3 {
+  font-family: var(--font-title12);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.sistemas-cerrados img {
+  border-radius: 2rem;
+}
+
+.sistemas-cerrados p {
+  font-size: 21px;
+  font-weight: 300;
+  margin: 20px 10px 10px 5px;
+  color: while;
+  font-family: var(--font-title5);
+  max-width: 300px;
+  line-height: 18px;
+  margin: 0px 0px 15px;
+}
+
+/* Aplicaciones */
+
+.aplicaciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 3px solid white;
+  border-radius: 0.4rem;
+  padding: 10px;
+  background-color: #437365;
+  gap: 15px;
+}
+
+.aplicaciones h2 {
+  text-align: center;
+  font-family: var(--font-title12);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.texto-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.texto-aplicaciones {
+  font-size: 21px;
+  font-weight: 300;
+  margin: 20px 10px 10px 5px;
+  color: while;
+  font-family: var(--font-title5);
+  max-width: 400px;
+  margin: 0px 0px 15px;
+}
+
+/* Elementos Claves */
+
+.elementos-claves {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  background-color: #4E52A6;
+  border: 3px solid white;
+  border-top: none;
+  padding: 10px;
+}
+
+.img-elementos img {
+  border: 2px solid rgba(255, 255, 255, 0.659);
+  border-radius: 0.7rem;
+}
+
+.texto-elementos {
+  max-width: 700px;
+
+}
+
+.texto-elementos h2 {
+  font-family: var(--font-title12);
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.texto-elementos p {
+  font-size: 21px;
+  font-weight: 350;
+  margin: 20px 10px 10px 5px;
+  color: while;
+  font-family: var(--font-title5);
+  margin: 0px 0px 15px;
+  line-height: 22px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #f2958d;
+  padding: 40px;
+}
